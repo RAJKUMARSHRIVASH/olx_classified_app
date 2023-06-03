@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post ads</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="postContainer">
+        <h2>Post Your ads here..</h2>
+        <form id="postForm" onsubmit="postAds(event)">
+
+            <input type="text" name="name" placeholder="Enter the name of ad.">
+            <input type="text" name="description" placeholder="Enter description of item">
+            <select name="category" id="category">
+                <option value="">Select category</option>
+                <option value="clothing">Clothing</option>
+                <option value="electronics">Electronics</option>
+                <option value="furniture">Furniture</option>
+                <option value="other">Other</option>
+            </select>
+            <input type="text" name="image" placeholder="Enter image url">
+            <input type="text" name="location" placeholder="Enter location">
+            <input type="number" name="price" placeholder="Enter price">
+            <input type="submit" value="Post" id="btn">
+        </form>
+    </div>
+    
+</body>
+</html>
+<script src="./post.js"></script>

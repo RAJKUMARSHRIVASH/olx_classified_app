@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup / Login</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="signContainer">
+        <div class="togglebutton">
+            <button id="togSignBtn">Signup</button>
+            <button id="togLogBtn">Login</button>
+        </div>
+        <form id="signupForm" onsubmit="signup(event)">
+            <input type="email" name="email" placeholder="Please enter your email">
+            <input type="password" name="password" placeholder="Please enter your password">
+            <input type="text" name="confirmPass" placeholder="Please confirm your password">
+            <input type="submit" value="Signup" id="btn">
+        </form>
+        <form id="loginForm" onsubmit="login(event)">
+            <input type="email" name="email" placeholder="Please enter your email">
+            <input type="password" name="password" placeholder="Please enter your password">
+            <input type="submit" value="Login" id="btn">
+        </form>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>

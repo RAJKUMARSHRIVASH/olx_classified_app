@@ -1,0 +1,118 @@
+body {
+    width: 100%;
+    text-align: center;
+}
+
+.signContainer {
+    width: 15%;
+    height: 35vh;
+    margin: auto;
+    margin-top: 30vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    position: relative;
+}
+
+.togglebutton {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10%;
+
+}
+
+.togglebutton button:hover {
+    background-color: greenyellow;
+
+}
+
+input,
+select {
+    border-radius: 10px;
+    border: 1px solid silver;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+input:focus {
+    border-radius: 10px;
+    border: 1px solid green;
+    outline: none;
+    padding: 5px 10px;
+}
+
+#btn:hover {
+    background-color: greenyellow;
+}
+
+#signupForm {
+    position: absolute;
+    left: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    visibility: hidden;
+
+}
+
+#loginForm {
+    position: absolute;
+    left: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.postContainer {
+    margin: auto;
+    margin-top: 20vh;
+    width: 30%;
+}
+
+#postForm {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+.cardcontainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 40%;
+    margin: auto;
+    padding: 30px;
+    gap: 50px;
+
+
+}
+
+.cardcontainer>div {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: left;
+    padding: 10px;
+
+}
+.cardcontainer>div div {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+
+}
+
+.cardcontainer>div img {
+    width: 100%;
+    text-align: left;
+    height: 200px;
+}
